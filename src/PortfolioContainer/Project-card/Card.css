@@ -1,0 +1,181 @@
+.container-proj{
+    /* margin-top: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 10%;*/
+    padding-bottom: 10%; 
+}
+
+.project-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+
+.project-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    /* padding-bottom: 10%;
+    padding-top: 2%; */
+}
+
+.project-card{
+    background: black;
+    padding: 1.2rem 1rem;
+    padding-bottom: 10%;
+}
+.project-card img{
+    width: 100%;
+    /* height: 30%; */
+}
+.project-title{
+    color: orange;
+
+
+}
+.project-details{
+    color: black;
+    padding-left: 10px;
+}
+p.det{
+    color: white;
+
+}
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pro-btn{
+    display: block;
+    margin-top: 10%;
+}
+
+.pro-view:hover{
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.pro-source:hover{
+    opacity: 1;
+    transition: 0.7s;
+
+}
+
+.pro-view{
+    /* display: block; */
+    font-size: 25px;
+    color: black;
+    background-color: yellow;
+    opacity: 0.6;
+}
+
+.pro-source{
+    /* display: block; */
+    font-size: 25px;
+    margin-left: 35%;
+    color: black;
+    background-color: yellow;
+    opacity: 0.6;
+}
+
+.project-heading{
+    margin-top: -450px;
+    font-family: "Poppins Bold";
+    text-decoration: dotted;
+    color: white;
+}
+
+.project-container{
+    margin-top: -20px;
+    
+}
+
+.project-card{
+    border-radius: 5%;
+    margin-bottom: 40%;
+    
+
+}
+
+.project-card:hover{
+    border-radius: 10%;
+    transform: scale(1.07);
+  transition: 0.5s ease-out;
+}
+
+@media screen and (max-width: 840px){
+    
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .project-heading{
+        margin-top: -250px;
+    }
+    .project-container{
+        max-width: 90%;
+        margin: auto;
+
+        grid-template-columns: 2fr;
+    }
+}
+.spacer{
+    aspect-ratio: 870/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.layer1{
+    background-image: url(../../assets/Home/layered-waves-haikei.svg);
+}
+
+/* .custom-shape-divider-bottom-1674475846 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1674475846 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 136px;
+} */
+
+/* .custom-shape-divider-bottom-1674475846 .shape-fill {
+    fill: #f1f1f1;
+} */
+.custom-shape-divider-bottom-1674476859 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1674476859 svg {
+    position: relative;
+    display: block;
+    width: calc(153% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1674476859 .shape-fill {
+    fill: #24263b;
+}

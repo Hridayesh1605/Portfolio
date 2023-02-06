@@ -1,0 +1,179 @@
+.container{
+    /* background-image: url('../../assets//Home/bg3.jpg');  */
+    box-sizing: border-box;
+
+}
+.about-me{
+    margin-bottom: 22%; 
+
+    
+} 
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+
+}
+b{
+    color: orange;
+}
+.education{
+    animation: slow 0.4s ease-in;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 5%;
+}
+li{
+    list-style: none;
+}
+.btn-sec{
+    
+    padding: 6px 10px 6px 10px;
+    width: 500px;
+    height: 50px;
+    font-size: 15px;
+    background: orange;
+    color: black;
+    margin-bottom: 10%;
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    
+}
+.select1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.btn-sec:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in 0.2s;
+    opacity: 0.5;
+}
+p{
+    margin-bottom: -20px;
+    color: white;
+}
+.sec-sentence{
+    margin-top: 10%;
+}
+.third-sentence{
+    margin-top: 10%;
+
+}
+
+
+.sec-pro{
+    margin-top: 10%;
+}
+.third-pro{
+    margin-top: 10%;
+
+}
+.sec-activity{
+    margin-top: 10%;
+}
+
+.DOB{
+    margin-top: 5%;
+    
+}
+.nationality{
+    margin-top: 5%;
+}
+.address{
+    margin-top: 5%;
+}
+.contact{
+    margin-top: 5%;
+}
+.email{
+    margin-top: 5%;
+}
+
+span.date{
+    margin-left: 35%;
+}
+
+.skill-box .skill-bar{
+    height: 8px;
+    width: 50%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0,0,0.1);
+}
+
+.skill-box .skill-per{
+    /* position: relative; */
+    /* right: -140px; */
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background: orange;
+    opacity: 0;
+    animation: progress 0.4s ease-in-out forwards;
+
+}
+.title{
+    color: white;
+}
+
+.skill-per.css{
+    width: 80%;
+}
+.skill-per.react{
+    width: 75%;
+}
+.skill-per.java{
+    width: 60%;
+}
+.skill-per.sql{
+    width: 80%;
+}
+
+.skill-per.javascript{
+    width: 70%;
+}
+
+@keyframes progress {
+    0%{width:0;
+    opacity: 1;}
+
+    100%{
+        opacity: 1;
+    }
+    
+
+}
+@keyframes slow {
+    0%{width:0;
+    opacity: 1;}
+
+    100%{
+        opacity: 1;
+    }
+    
+
+}
+
+.skill-per .tooltip{
+    position: absolute;
+    right: -10px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: orange;
+    z-index: 1;
+}
+
+
